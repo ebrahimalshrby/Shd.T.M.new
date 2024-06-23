@@ -7,4 +7,4 @@ FROM python:3.8-slim-buster
 
  COPY . .
 
- CMD [ "python3", "ze-telethon-cl.py"]
+ CMD [ "python3", "mains.py"]
