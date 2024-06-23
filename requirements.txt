@@ -1,5 +1,4 @@
 telebot
-os
 types
 json
 random
