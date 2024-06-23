@@ -1,1 +1,1 @@
-worker: python3 ze-telethon-cl.py
+worker: python3 mains.py
