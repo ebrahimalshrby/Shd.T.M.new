@@ -198,7 +198,7 @@ def send_welcome(message):
     markup.row(btn2)
     markup.row(btn3)
     markup.row(btn4)
-    bot.send_message(message.chat.id, "مرحبا عزيزي، إختر من الأزرار أدناه", reply_markup=markup)
+    bot.send_message(message.chat.id, "مرحبا بك عزيزي المستخدم  في بوت الــقــيادة قــاهــر الــتــعــزي (@kaher_01) اختر من الازرار ادناه 👨‍💻🏴‍☠", reply_markup=markup)
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 @bot.message_handler(content_types=['document'])
 def handle_docs(message):
