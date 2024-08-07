@@ -7,8 +7,8 @@ import string
 import re
 import requests,user_agent
 # - - - - - - - - -  [ Bot & Others ]  - - - - - - - - - 
-TOKEN = '7202513885:AAENYe5rVv-Jhqx-PiD0yEDIpbSt37sMezg'
-OID = 707679061
+TOKEN = Config.TOKEN
+OID = Config.OID
 bot = telebot.TeleBot(TOKEN)
 r = requests.session()
 user = user_agent.generate_user_agent()
