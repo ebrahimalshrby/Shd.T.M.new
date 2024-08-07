@@ -17,8 +17,12 @@
       "OID": {
             "description": "Your Telegram ID account",
             "value": ""
-        },
-        
+        }
+        "buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
 	
     },
 
