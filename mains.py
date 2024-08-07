@@ -1,4 +1,5 @@
 # Code & Req By @Sami3D
+from config import Config
 import telebot,os, time
 from telebot import types
 import json
