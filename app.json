@@ -8,22 +8,22 @@
 		"python",
 		"telethon"
 	],
-	"repository": "https://github.com/ebrahimalshrby/Shd.T.M.new.git",
+	"repository": "https://github.com/Source-Ze/temp",
     "env": {
         "TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
             "value": ""
         },
-      "OID": {
-            "description": "Your Telegram ID account",
+        "OID": {
+            "description": "Your Telegram IDaccount",
             "value": ""
-        }
-        "buildpacks": [
+        },
+        
+	"buildpacks": [
 		{
 			"url": "heroku/python"
 		}
 	]
-	
-    }
-
 }
+
+
