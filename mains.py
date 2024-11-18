@@ -1,5 +1,4 @@
 # Code & Req By @Sami3D
-from config import Config
 import telebot,os, time
 from telebot import types
 import json
@@ -8,8 +7,8 @@ import string
 import re
 import requests,user_agent
 # - - - - - - - - -  [ Bot & Others ]  - - - - - - - - - 
-TOKEN = Config.TOKEN
-OID = Config.OID
+TOKEN = '7202513885:AAENYe5rVv-Jhqx-PiD0yEDIpbSt37sMezg'
+OID = 707679061
 bot = telebot.TeleBot(TOKEN)
 r = requests.session()
 user = user_agent.generate_user_agent()
